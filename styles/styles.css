@@ -21,6 +21,30 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+main {
+    max-width: 900px;
+}
+
+aside {
+    width: 300px;
+    margin: 10px;
+    border: 4px groove lightsteelblue;
+    background-color: azure;
+    padding: 4px;
+    color: navy;
+    text-align: center;
+}   
+
+aside img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+p {padding: 0;}
+
+footer {
+    margin-top: 2rem;
+    border-top: 2px groove steelblue;
+    text-align: center;
 }
