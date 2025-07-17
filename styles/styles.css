@@ -1,5 +1,9 @@
+:root {
+    --uniform-color: #008E97;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--uniform-color);
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color:darkblue;
+    color: var(--uniform-color);
 }
 
 img {
