@@ -89,7 +89,8 @@ ul {
     padding: 2px;
     color: navy;
 }
-/* Class Selectors
-Class selector is .
-Id Selector is #
-You use them to pick specific HTML element as your selector to give a declaration.*/
+/* Class and ID Selectors
+A class selector starts with a dot (.) and targets elements with a specific class.
+An ID selector starts with a hash (#) and targets an element with a specific ID.
+You use them to apply CSS styles to selected HTML elements.
+*/
