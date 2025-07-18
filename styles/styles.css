@@ -48,6 +48,7 @@ main {
     padding: 1em;    
 }
 
+/* Parent element position: relative|Child element position: absolute */
 aside {
     width: 212px;
     text-align: center;
