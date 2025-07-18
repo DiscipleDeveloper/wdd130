@@ -1,54 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* The asterisk selector is the universal selector. | The declarations in this selector changes all elements
+    in the CSS and HTML */
+}
+
 :root {
     --uniform-color: #008E97;
 }
 
+body {
+    background-color: honeydew;
+}
+
 nav {
     background-color: var(--uniform-color);
-    padding: 10px;
+    padding: 20px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     color: var(--uniform-color);
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin-top: 1em;
+    margin-right: 1.1em;    
 }
 
 main {
-    max-width: 900px;
+    max-width: 49em;
+    position: relative;
+    margin: 0;
+    border: 1px;
+    padding: 1em;    
 }
 
 aside {
-    width: 300px;
-    margin: 10px;
-    border: 4px groove lightsteelblue;
-    background-color: azure;
-    padding: 4px;
-    color: navy;
+    width: 212px;
     text-align: center;
-}   
+    position: relative;    
+}
+
+aside h2 {
+    position: absolute;
+    bottom: 159px;
+    left: 44px;
+}
 
 aside img {
     width: 200px;
-    display: block;
-    margin: auto;
+    margin: 3px;
+    
 }
 
-p {padding: 0;}
+main p {padding: 0;
+    margin-top: 1em;
+}
 
 footer {
     margin-top: 2rem;
-    border-top: 2px groove steelblue;
+    border-top: 1px groove steelblue;
     text-align: center;
 }
+
+ul {
+    margin-top: 1em;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px groove lightsteelblue;
+    background-color: azure;
+    padding: 2px;
+    color: navy;
+}
+/* Class Selectors
+Class selector is .
+Id Selector is #
+You use them to pick specific HTML element as your selector to give a declaration.*/
