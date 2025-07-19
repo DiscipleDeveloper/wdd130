@@ -11,6 +11,7 @@
 header {
     background-color: var(--primary-color);
     color : var(--accent2-color);
+    border: outset var(--secondary-color) 5px;
 }
 
 * {
@@ -69,18 +70,19 @@ h1 {
     opacity: .9;
     width: 100%;
     height: auto;
-    top: 251.9px;
+    top: 260.9px;
     left: -16px;
     color: var(--accent1-color);
-    padding-bottom: 4px;
+    padding-bottom: 3px;
 }
+
 
 .hero article img {
     float: right;
     height: 120px;
     width: auto;
     padding: 2px;
-    border: solid var(--secondary-color) 4px;
+    border: outset var(--secondary-color) 4px;
     opacity: 1;
 
 
