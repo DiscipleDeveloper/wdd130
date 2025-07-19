@@ -11,7 +11,11 @@
 header {
     background-color: var(--primary-color);
     color : var(--accent2-color);
-    border: outset var(--secondary-color) 5px;
+    
+}
+
+header img {
+    border: outset #27A1CA 5px;
 }
 
 * {
@@ -46,6 +50,7 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+    
 }
 
 .hero img {
