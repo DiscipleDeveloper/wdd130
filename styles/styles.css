@@ -11,22 +11,28 @@
 }
 
 body {
-    background-color: honeydew;
+    background-color: white;
 }
 
 nav {
     background-color: var(--uniform-color);
     padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 h1 {
-    color: var(--uniform-color);
+    color: #555358;
+    border-bottom: solid #F58220;
 }
 
 main img {
@@ -40,8 +46,17 @@ main img {
     margin-right: 1.1em;    
 }
 
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
 main {
-    max-width: 49em;
+    grid-column: 2/3;
     position: relative;
     margin: 0;
     border: 1px;
@@ -50,6 +65,8 @@ main {
 
 /* Parent element position: relative|Child element position: absolute */
 aside {
+    grid-column: 1/2;
+    grid-row: 1/2;
     width: 212px;
     text-align: center;
     position: relative;    
