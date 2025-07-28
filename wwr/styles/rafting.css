@@ -129,7 +129,7 @@ h1 {
     grid-template-rows: 23% 1fr;
     margin: 2.5em auto;
     align-items: center;
-
+    min-height: 12em;
 }
  
 #history h2 {
