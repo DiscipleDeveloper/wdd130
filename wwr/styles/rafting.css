@@ -79,6 +79,7 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+    height: 27em;
     
 }
 
@@ -104,16 +105,17 @@ h1 {
     opacity: .85;
     width: 100%;
     height: auto;
-    top: 260.9px;
-    left: -16px;
+    top: 16.31em;
+    left: -1em;
     color: var(--accent1-color);
     padding-bottom: 3px;
+    font-size: 1em;
 }
 
 
 .hero article img {
     float: right;
-    height: 120px;
+    height: 7.5em;
     width: auto;
     padding: 2px;
     border: outset var(--secondary-color) 4px;
