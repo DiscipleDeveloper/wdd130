@@ -14,8 +14,24 @@ header {
     
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 header img {
     border: outset #27A1CA 5px;
+}
+
+header nav a {
+    padding: 4px;
+    border: outset var(--secondary-color) 3.9px;
+    justify-content: center;
+    text-decoration: none;
+    color:var(--accent1-color);
+    background-color: white;
 }
 
 * {
@@ -29,13 +45,14 @@ body {
     color: var(--accent1-color);
 }
 header, main, footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 nav, p, section, article {
@@ -89,9 +106,69 @@ h1 {
     padding: 2px;
     border: outset var(--secondary-color) 4px;
     opacity: 1;
-
-
+    margin: 0 auto;
 }
 
+#history {
+    display: grid;
+    grid-template-rows: 2;
+    margin: 3em auto;
+    
+}
 
+#history h2 {
+    text-align: center;
+}
+
+#adventure {
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-rows: 23% 77%;  
+    border: solid var(--secondary-color);
+}
+
+#adventure ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#adventure img {
+    width: 93%;
+    height: auto;
+    border:outset var(--secondary-color);
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: .60em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+}
+
+footer p {
+    grid-column: 1/2;
+    justify-self: flex-end;
+    padding-right: 0;
+}
+footer nav {
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-flow: row wrap;
+    gap: .5em;
+    justify-content: center;
+}
 
