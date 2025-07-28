@@ -79,7 +79,7 @@ nav, p, section, article {
 
 .hero {
     position: relative;
-    height: 27em;
+    min-height: 27em;
     
 }
 
@@ -124,6 +124,7 @@ h1 {
 }
 
 #history {
+    position: relative;
     display: grid;
     grid-template-rows: 23% 1fr;
     margin: 2.5em auto;
