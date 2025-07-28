@@ -78,6 +78,7 @@ nav, p, section, article {
 }
 
 .hero {
+    display: block;
     position: relative;
     min-height: 27em;
     
@@ -100,13 +101,13 @@ h1 {
 }
 
 .hero article {
+    display: block;
     position: absolute;
     background-color: var(--primary-color);
     opacity: .85;
     width: 100%;
     height: auto;
-    top: 16.31em;
-    
+    top: 16.31em; 
     color: var(--accent1-color);
     padding-bottom: 3px;
     font-size: 1em;
