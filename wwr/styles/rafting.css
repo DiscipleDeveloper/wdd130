@@ -9,22 +9,26 @@
 }
 
 header {
-
     background-color: var(--primary-color);
     color : var(--accent2-color);
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     align-items: center;
 }
 
 header img {
     border: outset #27A1CA 5px;
+    justify-self: center;
+    
 }
 
-header nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+nav {
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 header nav a {
@@ -36,7 +40,8 @@ header nav a {
     background-color: white;
     font-weight: bold;
     font-family: var(--heading-font);
-    width: 6em;
+    font-size: 1em;
+    width: 5.8em;
     
     
 }
