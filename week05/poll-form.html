@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="Us-Eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-widtch, initial-scale=1.0">
+        <meta name="description" content="HTML Form">
+        <meta name="author" content="Napoleon B. Tumale">
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <link rel="stylesheet" href="styles/poll-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Napoleon Bueno Tumale | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                      <label for="fullname" >Full Name:</label>
+                      <input type="text" id="fullname" name="fullname">
+                    </div>
+                
+                    <div class="form-item column2">
+                      <label for="useremail">Email:</label>
+                      <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                      <label for="browser">What is your favorite browser?</label>
+                      <select id="browser" name="browser">
+                        <option value="OBS">OBS</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Edge">Edge</option>
+                      </select>
+                    </div>
+                
+                    <div class="form-item column1">
+                      <label for="household">Do you have a household pet?</label>
+                      <input type="checkbox" id="household" name="household">
+                    </div>
+                    
+                    <label id="textarea-label" for="feedback">List the places you have lived.</label>
+                    <textarea id="feedback" name="feedback" value="feedback" placeholder="United States, Japan, Israel" rows="2"></textarea>
+                    
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©2025 WDD 130 | HTML Form - User Poll | Napoleon Bueno Tumale</p>
+        </footer>
+        
+
+
+
+
+
+
+
+    </body>
+</html>
