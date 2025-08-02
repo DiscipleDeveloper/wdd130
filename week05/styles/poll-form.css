@@ -19,17 +19,20 @@ h1, header {
     font-family: var(--heading-font);
     text-align: center;
     margin: 0 0 2rem 0;
+    padding-top: 6px;
 }
 
+
+
 form { 
-    width: 850px;
+    width: 60%;
     border-radius: 1rem;
     display: grid;
     grid-row: 40% 40% 20%;
     background-color: var(--secondary-color);
     border: solid var(--accent-color) 2px;
     padding: 1rem;
-    margin: 1rem 1rem;
+    margin: 2rem auto;
 
 }
 
