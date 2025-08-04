@@ -64,7 +64,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #6E5C1B;
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ footer nav {
     grid-template-rows: 70% 30%;
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #6E5C1B;
 }
 
 iframe {
@@ -246,7 +246,7 @@ form {
 legend {
     font-family: var(--heading-font);
     font-size: 1.2rem;
-    color: #27A1CA;
+    color: #1C448E;
 }
 
 fieldset {
