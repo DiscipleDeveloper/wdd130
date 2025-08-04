@@ -10,7 +10,7 @@
 
 header {
     background-color: var(--primary-color);
-    color : var(--accent2-color);
+    color : var(--accent1-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -272,7 +272,7 @@ input[type="checkbox"] {
 button {
     margin: 1.1rem;
     padding: .4rem;
-    border: solid var(--accent-color);
+    border: none;
     background-color: var(--primary-color);
     color: var(--accent1-color);
     width: 7rem;
