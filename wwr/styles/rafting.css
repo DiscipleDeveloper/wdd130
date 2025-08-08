@@ -412,11 +412,12 @@ thead, th {
 }
 
 td {
-    width: 50%;
-    height: 4em;
-    padding: 0 2em;
+    width: 33%;
+    height: 8em;
+    padding: 0 .8em;
     border: 1px groove var(--primary-color);
     font-size: .8rem;
+    text-align: center;
 }
 
 #for-everyone img, #xtreme img, #wonderer img {
