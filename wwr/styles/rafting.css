@@ -321,7 +321,7 @@ button:hover {
     text-shadow: 0 0 2px#D7B131;
 }
 
-#for-everyone button,#xtreme button {
+#for-everyone .button,#xtreme .button {
     margin: 1.1rem;
     padding: .4rem;
     border: none;
@@ -335,16 +335,16 @@ button:hover {
     font-size: 1.2rem;
     opacity: .9;
     position: absolute;
-    bottom: 11.4em;
+    bottom: 9.9em;
     left: 14em;
     box-shadow: 0 0 5px#E5FCFE;
 }
 
-#for-everyone button:hover, #xtreme button:hover, #wonderer button:hover {
+#for-everyone .button:hover, #xtreme .button:hover, #wonderer .button:hover {
     filter: drop-shadow(0 0 10px var(--secondary-color));
     background-color: var(--accent2-color);
 }
-#wonderer button {
+#wonderer .button {
     margin: 1.1rem;
     padding: .4rem;
     border: none;
@@ -358,7 +358,7 @@ button:hover {
     font-size: 1.2rem;
     opacity: .9;
     position: absolute;
-    bottom: 11.4em;
+    bottom: 9.9em;
     right: 3.5em;
     box-shadow: 0 0 5px#E5FCFE;
 }
