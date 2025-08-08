@@ -418,7 +418,7 @@ td {
     border: 1px groove var(--primary-color);
 }
 
-section img {
+#for-everyone img, #xtreme img, #wonderer img {
     border-radius: 25%;
     width: 24em;
     height: 17em;
