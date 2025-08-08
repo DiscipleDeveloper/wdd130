@@ -416,6 +416,7 @@ td {
     height: 4em;
     padding: 0 2em;
     border: 1px groove var(--primary-color);
+    font-size: .8rem;
 }
 
 #for-everyone img, #xtreme img, #wonderer img {
