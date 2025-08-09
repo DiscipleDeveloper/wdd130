@@ -519,7 +519,7 @@ td {
     box-shadow: 0 0 4px #27A1CA;
     height: 2em;
     width: 10em;
-    color: #1C448E ;
+    color: var(--accent1-color) ;
     position: absolute;
     bottom: 8.5em;
     right: 1.34em
